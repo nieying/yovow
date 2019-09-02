@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.mobile-share {
+	position: relative;
+	height: 100%;
+	background: url('./img/bg.png') no-repeat;
+	background-size: 100% 100%;
+}
+
+.mobile-share .header {
+	padding: 0.32rem 0.32rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.mobile-share .header img {
+	width: 1.44rem;
+	height: 1.44rem;
+}
+
+.mobile-share .content {
+	height: calc(100% - 3.6rem);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mobile-share .content img {
+	width: 4.3rem;
+	height: 5.4rem;
+}
+
+.mobile-share .bottom {
+	position: absolute;
+	bottom: 0.4rem;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
+.mobile-share .bottom section:first-child {
+	font-size: 0.2rem;
+	font-family: PingFangSC;
+}
+
+.mobile-share .bottom section:last-child {
+	margin-top: 0.2rem;
+	font-size: 0.20rem;
+	font-family: SFUIText;
+	color: rgba(255, 255, 255, 0.4);
+}
+
+.modal {
+	position: absolute;
+	width: auto;
+	left: 0;
+	right: 0;
+	top: 50%;
+	transform: translate(0, -50%);
+	text-align: center;
+	z-index: 9999;
+}
+
+.mask {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: rgba(43, 41, 41, 0.63);
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.modal img {
+	width: 4.8rem;
+	height: 5.84rem;
+}

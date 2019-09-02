@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>编组 24</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#5B3C42" offset="0%"></stop>
+            <stop stop-color="#B6979E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="分组-23">
+            <g id="编组-24">
+                <rect id="矩形" fill="#FFFFFF" opacity="0" x="0" y="0" width="32" height="32"></rect>
+                <path d="M25.627417,8.41421356 L6.41421356,27.627417 L5,26.2132034 L24.2132034,7 L11.627417,7 L11.627417,5 L27.627417,5 L27.627417,7 L27.627417,21 L25.627417,21 L25.627417,8.41421356 Z" id="合并形状" fill="url(#linearGradient-1)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>P9-购物车</title>
+	<link rel="stylesheet" href="../iconfont/iconfont.css">
+	<link rel="stylesheet" href="../common.css">
+	<link rel="stylesheet" href="./index.css">
+	<script>
+		(function (doc, win) {
+			var docEl = doc.documentElement,
+				resizeEvt = "orientationchange" in window ? "orientationchange" : "resize",
+				recalc = function () {
+					var clientWidth = docEl.clientWidth;
+					if (!clientWidth) return;
+					docEl.style.fontSize = 100 * (clientWidth / 1920) + "px";
+				};
+
+			// Abort if browser does not support addEventListener
+			if (!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false);
+			doc.addEventListener("DOMContentLoaded", recalc, false);
+		})(document, window);
+	</script>
+</head>
+
+<body>
+	<div class="page-order">
+		<div class="order-content">
+			<div class="page-title">
+				<h4> <i class="iconfont iconshoppingcart"></i> <span>购物车</span></h4>
+				<i class="iconfont iconclose"></i>
+			</div>
+			<img class="order-top-img" src="./img/bg_head.svg" />
+			<div class="order-warp">
+				<div class="order-warp-left">
+					<h5>编辑订单信息</h5>
+					<div class="order-left-item">
+						<p>客户姓名：</p>
+						<input class="" type="text" placeholder="请输入客户姓名" />
+					</div>
+					<div class="order-left-item">
+						<p>客户电话：</p>
+						<input class="" type="text" placeholder="请输入客户姓名" />
+					</div>
+					<div class="order-left-item">
+						<p>接单人：</p>
+						<input class="" type="text" placeholder="请输入接单人姓名" />
+					</div>
+					<div class="order-left-item">
+						<p>出货日期：</p>
+						<input class="" type="text" placeholder="请选择出货日期" />
+					</div>
+					<div class="order-left-item">
+						<p>下单要求：</p>
+						<input class="" type="text" placeholder="请输入客户下单要求" />
+					</div>
+					<div class="order-left-item">
+						<p>预付：</p>
+						<input class="" type="text" placeholder="请输入预付金额" />
+						<span class="order-input-span">元</span>
+					</div>
+					<div class="order-left-item">
+						<p>金属材质：</p>
+						<input class="" type="text" placeholder="请输入金属材质" />
+					</div>
+					<div class="order-left-item">
+						<p>每克金价：</p>
+						<input class="" type="text" placeholder="请输入当日金价" />
+					</div>
+					<div class="order-left-item">
+						<p>字印：</p>
+						<input class="" type="text" placeholder="请输入想要刻的文字" />
+					</div>
+				</div>
+				<div class="order-warp-right">
+					<div class="warp-head">
+						<h5>订单产品信息 </h5>
+						<div class="bottom">
+							<div>全部选择</div>
+							<div>已选 <span>2</span> / 50</div>
+						</div>
+					</div>
+					<div class="drawer-content">
+						<ul>
+							<li class="active">
+								<div> <img src="../img/logo.svg" alt=""> </div>
+								<div class="info">
+									<h6>婚嫁钻戒</h6>
+									<p>XA256287-051051-19</p>
+								</div>
+								<div class="opt">
+									<input type="checkbox" checked="true" />
+								</div>
+							</li>
+							<li>
+								<div> <img src="../img/logo.svg" alt=""> </div>
+								<div class="info">
+									<h6>婚嫁钻戒</h6>
+									<p>XA256287-051051-19</p>
+								</div>
+								<div class="opt">
+									<input type="checkbox" />
+								</div>
+							</li>
+							<li>
+								<div> <img src="../img/logo.svg" alt=""> </div>
+								<div class="info">
+									<h6>婚嫁钻戒</h6>
+									<p>XA256287-051051-19</p>
+								</div>
+								<div class="opt">
+									<input type="checkbox" />
+								</div>
+							</li>
+							<li>
+								<div> <img src="../img/logo.svg" alt=""> </div>
+								<div class="info">
+									<h6>婚嫁钻戒</h6>
+									<p>XA256287-051051-19</p>
+								</div>
+								<div class="opt">
+									<input type="checkbox" />
+								</div>
+							</li>
+							<li>
+								<div> <img src="../img/logo.svg" alt=""> </div>
+								<div class="info">
+									<h6>婚嫁钻戒</h6>
+									<p>XA256287-051051-19</p>
+								</div>
+								<div class="opt">
+									<input type="checkbox" />
+								</div>
+							</li>
+							<li>
+								<div> <img src="../img/logo.svg" alt=""> </div>
+								<div class="info">
+									<h6>婚嫁钻戒</h6>
+									<p>XA256287-051051-19</p>
+								</div>
+								<div class="opt">
+									<input type="checkbox" />
+								</div>
+							</li>
+							<li>
+								<div> <img src="../img/logo.svg" alt=""> </div>
+								<div class="info">
+									<h6>婚嫁钻戒</h6>
+									<p>XA256287-051051-19</p>
+								</div>
+								<div class="opt">
+									<input type="checkbox" />
+								</div>
+							</li>
+							<li>
+								<div> <img src="../img/logo.svg" alt=""> </div>
+								<div class="info">
+									<h6>婚嫁钻戒</h6>
+									<p>XA256287-051051-19</p>
+								</div>
+								<div class="opt">
+									<input type="checkbox" />
+								</div>
+							</li>
+							<li>
+								<div> <img src="../img/logo.svg" alt=""> </div>
+								<div class="info">
+									<h6>婚嫁钻戒</h6>
+									<p>XA256287-051051-19</p>
+								</div>
+								<div class="opt">
+									<input type="checkbox" />
+								</div>
+							</li>
+							<li>
+								<div> <img src="../img/logo.svg" alt=""> </div>
+								<div class="info">
+									<h6>婚嫁钻戒</h6>
+									<p>XA256287-051051-19</p>
+								</div>
+								<div class="opt">
+									<input type="checkbox" />
+								</div>
+							</li>
+							<li>
+								<div> <img src="../img/logo.svg" alt=""> </div>
+								<div class="info">
+									<h6>婚嫁钻戒</h6>
+									<p>XA256287-051051-19</p>
+								</div>
+								<div class="opt">
+									<input type="checkbox" />
+								</div>
+							</li>
+							<li>
+								<div> <img src="../img/logo.svg" alt=""> </div>
+								<div class="info">
+									<h6>婚嫁钻戒</h6>
+									<p>XA256287-051051-19</p>
+								</div>
+								<div class="opt">
+									<input type="checkbox" />
+								</div>
+							</li>
+							<li>
+								<div> <img src="../img/logo.svg" alt=""> </div>
+								<div class="info">
+									<h6>婚嫁钻戒</h6>
+									<p>XA256287-051051-19</p>
+								</div>
+								<div class="opt">
+									<input type="checkbox" />
+								</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="page-footer">
+		<div class="warp">
+			<div class="left">
+				<i class="iconfont iconarrowleft"></i> <span>返回</span>
+			</div>
+			<div class="right">
+				<span class="btn btn-primary">电子签名</span>
+				<span class="btn btn-yellow">立即下单</span>
+			</div>
+		</div>
+	</div>
+</body>

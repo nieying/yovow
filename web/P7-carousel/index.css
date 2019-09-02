@@ -1,0 +1,30 @@
+.page-carousel {
+	color: white;
+	font-size: 0.14rem;
+	background: url(./img/img1.png) no-repeat;
+	background-size: 100%;
+	height: 100%;
+}
+
+.carousel-content {}
+
+.carousel-content image {}
+
+.carousel-bottom {
+	position: absolute;
+	bottom: 0.4rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.carousel-quit,
+.carousel-info {
+	display: flex;
+	align-items: center;
+}
+
+.carousel-info {
+	margin: 0 2rem;
+}

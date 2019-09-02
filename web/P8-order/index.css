@@ -1,0 +1,146 @@
+.page-order {
+    background: #e8e7e7;
+	color: #230D29;
+	padding-bottom: 1rem;
+}
+
+.order-content {
+    margin: 0 1rem;
+}
+
+.order-top-img {
+    height: 2.8rem;
+    width: 100%;
+}
+
+.order-warp {
+    padding: 0.4rem 0.6rem;
+    background: #FFFFFF;
+    box-shadow: 0 2px 7px 0 rgba(5, 34, 97, 0.20);
+    display: flex;
+    margin-bottom: 0.2rem;
+}
+
+.order-warp h5 {
+    font-family: PingFangSC-Medium;
+    font-size: 0.16rem;
+    color: #230D29;
+    margin-bottom: 0.2rem;
+}
+
+.order-left-item {
+    position: relative;
+    margin-bottom: 0.2rem;
+    border-bottom: 1px solid #DDD9DF;
+    width: 4rem;
+}
+
+.order-left-item .order-input-span {
+    position: absolute;
+    right: 0;
+    bottom: 0.1rem;
+    color: #442E4D;
+}
+
+.order-left-item p {
+    color: #D29991;
+}
+
+.order-left-item input {
+    border: none;
+    height: 0.36rem;
+    font-size: 0.14rem;
+    line-height: 0.36rem;
+}
+
+.order-warp-right {
+    margin-left: 0.97rem;
+    width: 100%;
+}
+
+.upload-list {
+    display: flex;
+    margin-bottom: 0.38rem;
+}
+
+.upload-list .imgs img,
+.upload-btn {
+    width: 1.28rem;
+    height: 1.28rem;
+}
+
+.upload-list .imgs {
+    background: #7F7F7F;
+    margin-right: 0.12rem;
+    font-size: 0.1rem;
+    text-align: center;
+}
+
+.upload-list .upload-btn {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background: #F6F5F7;
+}
+
+.upload-btn P:first-child {
+    color: #230D29;
+    font-size: 0.4rem;
+}
+
+.upload-btn P:last-child {
+    color: #ACA2B3;
+}
+
+.upload-list img {
+    padding: 0.14px;
+}
+
+.order-info {
+    padding: 0.3rem 0.2rem;
+    background: #F6F5F7;
+    border: 1px solid #DDD9DF;
+    color: #230D29;
+}
+
+.info-form-item {
+    margin-bottom: 0.12rem;
+}
+
+.info-form-item p {
+    padding-left: 0.1rem;
+}
+
+.form-item {
+    display: flex;
+    margin-top: 0.12rem;
+}
+
+.form-item select {
+    width: 1.6rem;
+    height: 0.36rem;
+    background: white;
+    border: 1px solid #DDD9DF;
+}
+
+.form-item .input {
+    position: relative;
+    /* width: 1rem; */
+    margin: 0 0.12rem;
+}
+
+.form-item .input input {
+    height: 0.36rem;
+    line-height: 0.36rem;
+    border: 1px solid #DDD9DF;
+    border-radius: 4px;
+    width: 0.6rem;
+    padding-right: 0.40rem;
+}
+
+.form-item .input span {
+    position: absolute;
+    right: 0.1rem;
+    top: 0.03rem;
+}

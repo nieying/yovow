@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>轮播</title>
+	<link rel="stylesheet" href="./index.css">
+	<link rel="stylesheet" href="../common.css">
+	<script>
+		(function (doc, win) {
+			var docEl = doc.documentElement,
+				resizeEvt = "orientationchange" in window ? "orientationchange" : "resize",
+				recalc = function () {
+					var clientWidth = docEl.clientWidth;
+					if (!clientWidth) return;
+					docEl.style.fontSize = 100 * (clientWidth / 1920) + "px";
+				};
+
+			// Abort if browser does not support addEventListener
+			if (!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false);
+			doc.addEventListener("DOMContentLoaded", recalc, false);
+		})(document, window);
+
+	</script>
+</head>
+
+<body>
+	<div class="page-carousel">
+		<div class="carousel-content">
+			<image class="" src="" />
+		</div>
+		<div class="carousel-bottom">
+			<div class="carousel-quit">
+				<img src="./img/quit.svg">
+				退出轮播
+			</div>
+			<div class="carousel-info">
+				<img src="./img/prev.svg">
+				<span>XA256287-051051-19</span>
+				<img src="./img/next.svg">
+			</div>
+			<div class="carousel-page">2 / 50</div>
+		</div>
+
+		<div class="page-bottom">
+			<div class="left-tips">
+				09:16:27 February
+			</div>
+			<div class="right-tips">
+				2019 © YOVOW DIAMOND
+			</div>
+		</div>
+	</div>
+</body>

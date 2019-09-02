@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>P8-订单信息</title>
+	<link rel="stylesheet" href="../iconfont/iconfont.css">
+	<link rel="stylesheet" href="../common.css">
+	<link rel="stylesheet" href="./index.css">
+	<script>
+		(function (doc, win) {
+			var docEl = doc.documentElement,
+				resizeEvt = "orientationchange" in window ? "orientationchange" : "resize",
+				recalc = function () {
+					var clientWidth = docEl.clientWidth;
+					if (!clientWidth) return;
+					docEl.style.fontSize = 100 * (clientWidth / 1920) + "px";
+				};
+
+			// Abort if browser does not support addEventListener
+			if (!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false);
+			doc.addEventListener("DOMContentLoaded", recalc, false);
+		})(document, window);
+	</script>
+</head>
+
+<body>
+	<div class="page-order">
+		<div class="order-content">
+			<div class="page-title">
+				<h4> <i class="iconfont iconorder"></i> <span>订单信息</span></h4>
+				<i class="iconfont iconclose"></i>
+			</div>
+			<img class="order-top-img" src="./img/bg_head.svg" />
+			<div class="order-warp">
+				<div class="order-warp-left">
+					<h5>客户信息</h5>
+					<div class="order-left-item">
+						<p>客户姓名：</p>
+						<input class="" type="text" placeholder="请输入客户姓名" />
+					</div>
+					<div class="order-left-item">
+						<p>客户电话：</p>
+						<input class="" type="text" placeholder="请输入客户姓名" />
+					</div>
+					<div class="order-left-item">
+						<p>出货日期：</p>
+						<input class="" type="text" placeholder="请输入客户姓名" />
+					</div>
+					<div class="order-left-item">
+						<p>预付：</p>
+						<input class="" type="text" placeholder="请输入预付金额" />
+						<span class="order-input-span">元</span>
+					</div>
+					<div class="order-left-item">
+						<p>改款要求：</p>
+						<input class="" type="text" placeholder="请输入客户下单要求" />
+					</div>
+					<div class="order-left-item">
+						<p>加工要求：</p>
+						<input class="" type="text" placeholder="请输入客户下单要求" />
+					</div>
+					<div class="order-left-item">
+						<p>备注：</p>
+						<input class="" type="text" placeholder="请输入备注信息" />
+					</div>
+					<div class="order-left-item">
+						<p>提示：</p>
+						<input class="" type="text" placeholder="请输入提示信息" />
+					</div>
+					<div class="order-left-item">
+						<p>地址：</p>
+						<input class="" type="text" placeholder="请输入收货地址" />
+					</div>
+					<div class="order-left-item">
+						<p>电话：</p>
+						<input class="" type="text" placeholder="请输入收货电话" />
+					</div>
+					<div class="order-left-item">
+						<p>经手人：</p>
+						<input class="" type="text" placeholder="请输入经手人姓名" />
+					</div>
+				</div>
+				<div class="order-warp-right">
+					<h5>商品信息</h5>
+					<div class="upload-list">
+						<div class="imgs">
+							<img src="" alt="">
+							<p>D-1902-771</p>
+						</div>
+						<div class="imgs">
+							<img src="" alt="">
+							<p>D-1902-771</p>
+						</div>
+						<div class="upload-btn">
+							<p>+</p>
+							<p>上传图片</p>
+						</div>
+					</div>
+					<div class="order-info">
+						<div class="info-form-item">
+							<p>材料价格</p>
+							<div class="form-item">
+								<select name="">
+									<option value="芝士">芝士</option>
+									<option value="奶油">奶油</option>
+								</select>
+								<div class="input">
+									<input type="text" />
+									<span>元</span>
+								</div>
+								<select name="">
+									<option value="芝士">芝士</option>
+									<option value="奶油">奶油</option>
+								</select>
+								<div class="input">
+									<input type="text" />
+									<span>元</span>
+								</div>
+								<select name="">
+									<option value="芝士">芝士</option>
+									<option value="奶油">奶油</option>
+								</select>
+								<div class="input">
+									<input type="text" />
+									<span>元</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="order-warp">
+				<div class="order-warp-left">
+					<h5>订单信息</h5>
+					<div class="order-left-item">
+						<p>品名：</p>
+						<input class="" type="text" placeholder="请输入客户姓名" />
+					</div>
+					<div class="order-left-item">
+						<p>模型编号：</p>
+						<input class="" type="text" placeholder="请输入客户姓名" />
+					</div>
+					<div class="order-left-item">
+						<p>定制手寸：</p>
+						<input class="" type="text" placeholder="请输入客户姓名" />
+					</div>
+					<div class="order-left-item">
+						<p>个性字印</p>
+						<input class="" type="text" placeholder="请输入预付金额" />
+						<span class="order-input-span">元</span>
+					</div>
+				</div>
+				<div class="order-warp-right">
+					<div class="order-info">
+						<div class="info-form-item">
+							<p>材料价格</p>
+							<div class="form-item">
+								<select name="">
+									<option value="芝士">芝士</option>
+									<option value="奶油">奶油</option>
+								</select>
+								<div class="input">
+									<input type="text" />
+									<span>元</span>
+								</div>
+								<select name="">
+									<option value="芝士">芝士</option>
+									<option value="奶油">奶油</option>
+								</select>
+								<div class="input">
+									<input type="text" />
+									<span>元</span>
+								</div>
+								<select name="">
+									<option value="芝士">芝士</option>
+									<option value="奶油">奶油</option>
+								</select>
+								<div class="input">
+									<input type="text" />
+									<span>元</span>
+								</div>
+							</div>
+						</div>
+						<div class="info-form-item">
+							<p>来料折钱</p>
+							<div class="form-item">
+								<select name="">
+									<option value="芝士">芝士</option>
+									<option value="奶油">奶油</option>
+								</select>
+								<div class="input">
+									<input type="text" />
+									<span>元</span>
+								</div>
+								<div class="input">
+									<input type="text" style="padding-right: 0.55rem" />
+									<span>g/元</span>
+								</div>
+								<div class="input">
+									<input type="text" />
+									<span>元</span>
+								</div>
+							</div>
+						</div>
+						<div class="info-form-item">
+							<p>加工费</p>
+							<div class="form-item">
+								<div class="input" style="margin:0">
+									<input type="text" />
+									<span>元</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="page-footer">
+		<div class="warp">
+			<div class="left">
+				<i class="iconfont iconarrowleft"></i> <span>返回</span>
+			</div>
+			<div class="right">
+				<span class="btn btn-primary">电子签名</span>
+				<span class="btn btn-yellow">立即下单</span>
+			</div>
+		</div>
+	</div>
+</body>

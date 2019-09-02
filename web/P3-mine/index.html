@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>我的</title>
+	<link rel="stylesheet" href="../iconfont/iconfont.css">
+	<link rel="stylesheet" href="../common.css">
+	<link rel="stylesheet" href="./index.css">
+	<script>
+		(function (doc, win) {
+			var docEl = doc.documentElement,
+				resizeEvt = "orientationchange" in window ? "orientationchange" : "resize",
+				recalc = function () {
+					var clientWidth = docEl.clientWidth;
+					if (!clientWidth) return;
+					docEl.style.fontSize = 100 * (clientWidth / 1920) + "px";
+				};
+
+			// Abort if browser does not support addEventListener
+			if (!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false);
+			doc.addEventListener("DOMContentLoaded", recalc, false);
+		})(document, window);
+	</script>
+</head>
+
+<body>
+	<div class="page-shared bg">
+		<div class="shared-left">
+			<div class="shared-logo">
+				<image src="../img/logo.svg" />
+			</div>
+			<div class="shared-tab">
+				<div class="shared-tab-item">
+					<p>公有库</p>
+					<p>PUBLIC LIBRARY</p>
+				</div>
+				<div class="shared-tab-item shared-tab-active">
+					<p>我的</p>
+					<p>MINE</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="shared-content">
+			<div class="shared-content-item">
+				<span class="iconfont iconorder"></span>
+				<span class="iconfont iconordertext"></span>
+				<p>订单列表</p>
+			</div>
+			<div class="shared-content-item ">
+				<!-- active 选中样式 -->
+				<!-- <div class="sanjiao">
+					<div class="gou"></div>
+				</div> -->
+				<span class="iconfont iconshoppingcart"></span>
+				<span class="iconfont iconshoppingtext"></span>
+				<p>购物车</p>
+			</div>
+		</div>
+
+		<div class="page-bottom">
+			<div class="left-tips">09:16:27 February</div>
+			<div class="right-tips">2019 © YOVOW DIAMOND</div>
+		</div>
+	</div>
+</body>

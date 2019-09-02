@@ -1,0 +1,48 @@
+.page-login {
+	font-size: 0.18rem;
+	color: white;
+	height: 100%;
+	background: url('./img/bg_login.png') no-repeat;
+	background-size: 100% 100%;
+}
+
+.login-from {
+	position: absolute;
+	right: 2.8rem;
+	bottom: 3.4rem;
+	width: 3.85rem;
+	font-size: 0.18rem;
+}
+
+
+.login-logo {
+	text-align: center;
+	margin-bottom: 0.56rem;
+}
+
+.from-item {
+	display: flex;
+	align-items: center;
+	height: 0.36rem;
+	border: 1px solid #FFFFFF;
+	padding: 0.14rem 0.28rem;
+	margin-bottom: 0.2rem;
+}
+
+.from-item input {
+	background: transparent;
+	border: none;
+	height: 0.36rem;
+	margin-left: 0.05rem;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 0.18rem;
+}
+
+.login-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 0.64rem;
+	background-image: linear-gradient(-45deg, #5B3C42 0%, #B6979E 100%);
+	cursor: pointer;
+}
