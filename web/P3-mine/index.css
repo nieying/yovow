@@ -1,10 +1,5 @@
 .page-shared {
-    overflow: hidden;
-}
-
-.shared-left,
-.shared-content {
-    float: left;
+    display: flex;
 }
 
 .shared-logo {
