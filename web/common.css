@@ -249,3 +249,36 @@ input:-ms-input-placeholder {
 		font-size: 80px
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+/* 可删 */
+ul.nav111 {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	height: 100%;
+}
+
+ul.nav111 li {
+	width: 2rem;
+	margin: 0.2rem 0;
+}
+
+ul.nav111 li a {
+	color: white;
+}
+
+ul.nav111 li a:hover {
+	color: #D29991;
+}
