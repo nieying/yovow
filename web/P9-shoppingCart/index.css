@@ -1,7 +1,7 @@
 .page-order {
     background: #e8e7e7;
     color: #230D29;
-    padding-bottom: 1rem;
+    padding-bottom: 0.8rem;
 }
 
 .order-content {
@@ -25,7 +25,6 @@
     font-family: PingFangSC-Medium;
     font-size: 0.16rem;
     color: #230D29;
-    margin-bottom: 0.2rem;
 }
 
 .order-left-item {
@@ -60,6 +59,27 @@
 
 .warp-head {
     display: flex;
+    justify-content: space-between;
+    font-size: 0.16rem;
+}
+
+.warp-head .check-all {
+    display: flex;
+}
+
+.warp-head .check-all div {
+    margin-left: 0.4rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.warp-head .check-all div span {
+    color: #D29991;
+}
+
+.warp-head .check-all div {
+
 }
 
 .upload-list {
@@ -127,7 +147,29 @@
     display: flex;
     background: white;
     align-items: center;
-    padding: 0.08rem 0.4rem 0.08rem 0.08rem;
+    justify-content: space-between;
+    padding: 0.08rem 0.4rem;
+}
+
+.drawer-content ul li div.left,
+.drawer-content ul li div.right {
+    display: flex;
+    align-items: center;
+}
+
+.drawer-content ul li div.right div {
+    cursor: pointer;
+    margin-left: 0.4rem;
+}
+
+/* .drawer-content ul li div.right div:hover i {
+    color: #230D29;
+} */
+
+.drawer-content ul li div.right div i {
+    font-size: 0.3rem;
+    color: #D29991;
+    vertical-align: middle;
 }
 
 .drawer-content ul li:hover,
@@ -144,11 +186,11 @@
     background: #7F7F7F;
     width: 0.6rem;
     height: 0.6rem;
+    margin: 0 0.2rem 0 0.34rem;
 }
 
 .drawer-content ul li .info {
     flex: 2;
-    margin-left: 0.2rem;
 }
 
 .drawer-content ul li p {
@@ -156,17 +198,19 @@
     font-size: 0.1rem;
 }
 
-.drawer-content ul li input[type="checkbox"] {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    background: white;
-    border: 1px solid #999;
-    border-radius: 10px;
-    outline: none;
+
+.order-warp-right input[type="checkbox"]:checked {
+    background: #230D29;
 }
 
-.drawer-content ul li input[type="checkbox"]:checked {
-    background: #230D29;
+.order-warp-right input[type="checkbox"] {
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0.2rem;
+    height: 0.2rem;
+    background: white;
+    border: 1px solid #999;
+    border-radius: 50%;
+    outline: none;
 }

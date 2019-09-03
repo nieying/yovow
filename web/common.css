@@ -97,7 +97,7 @@ input:-ms-input-placeholder {
 }
 
 .page-title {
-	height: 120px;
+	height: 1.20rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -224,6 +224,10 @@ input:-ms-input-placeholder {
 
 .btn-yellow:hover {
 	background: #E4BAB3;
+}
+
+i {
+	cursor: pointer;
 }
 
 @media (width:1440px) {
