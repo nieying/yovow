@@ -36,6 +36,10 @@
 	cursor: pointer;
 }
 
+.show-tab-item:hover .iconweixinlogo {
+	color: white;
+}
+
 .show-tab-item p:first-child {
 	font-family: PingFangSC-Medium;
 	font-size: 0.18rem;

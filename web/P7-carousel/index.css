@@ -1,14 +1,22 @@
 .page-carousel {
 	color: white;
 	font-size: 0.14rem;
-	background: url(./img/img1.png) no-repeat;
-	background-size: 100%;
+	background: url(../P6-carouselBg/img/img1.png) no-repeat;
+	background-size: 100% 100%;
 	height: 100%;
 }
 
-.carousel-content {}
+.carousel-content {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
-.carousel-content image {}
+.carousel-content img {
+	width: 4.3rem;
+	height: 5.4rem;
+}
 
 .carousel-bottom {
 	position: absolute;
