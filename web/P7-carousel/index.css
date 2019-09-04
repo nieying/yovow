@@ -1,7 +1,7 @@
 .page-carousel {
 	color: white;
 	font-size: 0.14rem;
-	background: url(./img/img1.png) no-repeat;
+	background: url(../img/img1.png) no-repeat;
 	background-size: 100%;
 	height: 100%;
 }
