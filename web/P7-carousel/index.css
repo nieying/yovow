@@ -6,9 +6,17 @@
 	height: 100%;
 }
 
-.carousel-content {}
+.carousel-content {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
-.carousel-content image {}
+.carousel-content img {
+	width: 4.3rem;
+	height: 5.4rem;
+}
 
 .carousel-bottom {
 	position: absolute;
