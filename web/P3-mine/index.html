@@ -5,7 +5,7 @@
 	<title>我的</title>
 	<link rel="stylesheet" href="../iconfont/iconfont.css">
 	<link rel="stylesheet" href="../common.css">
-	<link rel="stylesheet" href="./index.css">
+	<link rel="stylesheet" href="../P2-sharedLibrary/index.css">
 	<script>
 		(function (doc, win) {
 			var docEl = doc.documentElement,
@@ -21,15 +21,16 @@
 			win.addEventListener(resizeEvt, recalc, false);
 			doc.addEventListener("DOMContentLoaded", recalc, false);
 		})(document, window);
+
 	</script>
 </head>
 
 <body>
 	<div class="page-shared bg">
+		<div class="yovow-logo">
+			<image src="../img/logo.svg" />
+		</div>
 		<div class="shared-left">
-			<div class="shared-logo">
-				<image src="../img/logo.svg" />
-			</div>
 			<div class="shared-tab">
 				<div class="shared-tab-item">
 					<p>公有库</p>

@@ -1,13 +1,12 @@
-.page-show {
+.page-detail {
 	position: relative;
 	display: flex;
 	padding: 0.48rem 0.4rem 0.4rem 0.4rem;
 	color: white;
-	height: calc(100% - 0.88rem) !important;
 }
 
-.page-show .left {
-	margin-top: 2rem;
+.left-content {
+	margin-top: 2.4rem;
 }
 
 .show-tab {

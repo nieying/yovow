@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>P4-展示页</title>
+	<link rel="stylesheet" href="../iconfont/iconfont.css">
+	<link rel="stylesheet" href="../../bootstrap-3.3.7/css/bootstrap.css">
+	<link rel="stylesheet" href="../common.css">
+	<link rel="stylesheet" href="./index.css">
+	<script>
+		(function (doc, win) {
+			var docEl = doc.documentElement,
+				resizeEvt = "orientationchange" in window ? "orientationchange" : "resize",
+				recalc = function () {
+					var clientWidth = docEl.clientWidth;
+					if (!clientWidth) return;
+					docEl.style.fontSize = 100 * (clientWidth / 1920) + "px";
+				};
+
+			// Abort if browser does not support addEventListener
+			if (!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false);
+			doc.addEventListener("DOMContentLoaded", recalc, false);
+		})(document, window);
+
+	</script>
+</head>
+
+<body>
+	<div class="container-fluid page-detail bg">
+		<div class="yovow-logo">
+			<img src="../img/logo.svg" />
+		</div>
+		<div class="left-content">
+			<div class="row">
+				<div class="col-md-8">.col-md-8</div>
+				<div class="col-md-4">.col-md-4</div>
+			</div>
+		</div>
+		<div class="show-center">
+			<div class="center-image">
+				<img src="../img/logo.svg" />
+			</div>
+		</div>
+		<div class="show-right">
+			<div class="show-right-content">
+				<div class="add-cart"> 加入购物车</div>
+				<div class="order-now">
+					<span>¥ 18,999</span>
+					<span>即刻下单</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="page-bottom">
+		<div class="left-tips">09:16:27 February</div>
+		<div class="right-tips">2019 © YOVOW DIAMOND</div>
+	</div>
+</body>

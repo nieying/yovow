@@ -63,7 +63,8 @@
 .caroursel-modal .upload-warp {
     margin-top: 0.2rem;
     height: 1.28rem;
-    width: 100%;
+    /* width: 100%; */
+    padding: 0.1rem 0.2rem;
     background: #f5f5f5;
     display: flex;
     justify-content: center;
