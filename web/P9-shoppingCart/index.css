@@ -88,7 +88,7 @@
 }
 
 .upload-list .imgs img,
-.upload-btn {
+.upload-btn1 {
     width: 1.28rem;
     height: 1.28rem;
 }
@@ -100,7 +100,7 @@
     text-align: center;
 }
 
-.upload-list .upload-btn {
+.upload-list .upload-btn1 {
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -108,12 +108,12 @@
     background: #F6F5F7;
 }
 
-.upload-btn P:first-child {
+.upload-btn1 P:first-child {
     color: #230D29;
     font-size: 0.4rem;
 }
 
-.upload-btn P:last-child {
+.upload-btn1 P:last-child {
     color: #ACA2B3;
 }
 

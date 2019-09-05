@@ -64,7 +64,7 @@
 }
 
 .upload-list .imgs,
-.upload-btn {
+.upload-btn1 {
     width: 1.28rem;
     height: 1.28rem;
 }
@@ -104,7 +104,7 @@
     height: 1rem;
 }
 
-.upload-list .upload-btn {
+.upload-list .upload-btn1 {
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -112,28 +112,28 @@
     background: #F6F5F7;
 }
 
-.upload-list .upload-btn:hover {
+.upload-list .upload-btn1:hover {
     cursor: pointer;
     background: #DDD9DF;
 }
 
-.upload-btn P:first-child {
+.upload-btn1 P:first-child {
     color: #230D29;
     font-size: 0.4rem;
 }
 
-.upload-btn P.txt {
+.upload-btn1 P.txt {
     color: #ACA2B3;
     font-size: 0.12rem;
 }
 
-.upload-btn {
+.upload-btn1 {
     position: relative;
     display: inline-block;
     overflow: hidden;
 }
 
-.upload-btn input {
+.upload-btn1 input {
     position: absolute;
     right: 0;
     top: 0;

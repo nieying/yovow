@@ -22,7 +22,6 @@
 			win.addEventListener(resizeEvt, recalc, false);
 			doc.addEventListener("DOMContentLoaded", recalc, false);
 		})(document, window);
-
 	</script>
 </head>
 
@@ -31,7 +30,7 @@
 		<div class="yovow-logo">
 			<img src="../img/logo.svg" />
 		</div>
-		<div class="left">
+		<div class="left-content">
 			<div class="show-tab">
 				<div class="show-tab-item show-tab-active">
 					<div>
@@ -149,7 +148,7 @@
 					<p>返回</p>
 				</div>
 				<div class="item">
-					<div class="share">
+					<div class="share" style="display: none">
 						<h4>分享到微信朋友圈</h4>
 						<p>Share to WeChat</p>
 						<div>
@@ -166,7 +165,7 @@
 				<div class="item">
 					<div class="center-search" style="display: none">
 						<input type=" text" placeholder="请输入名称或编号" />
-						<div class="btn">
+						<div class="btn1">
 							<embed src="../img/search_white.svg" type="image/svg+xml" />
 						</div>
 					</div>
@@ -185,6 +184,31 @@
 				<div class="item">
 					<div class="i"><i class="iconfont iconscreen"> </i></div>
 					<p>清屏</p>
+				</div>
+				<div class="item">
+					<div class="compared">
+						<i class="iconfont iconclose"></i>
+						<div class="img-list">
+							<div class="item">
+								<i class="iconfont icondelete-s"></i>
+								<img src="../img/logo.svg" alt="">
+							</div>
+							<div class="item">
+								<i class="iconfont icondelete-s"></i>
+								<img src="../img/logo.svg" alt="">
+							</div>
+							<div class="item dashed">
+							</div>
+							<div class="item dashed">
+							</div>
+						</div>
+						<div class="options-btn">
+							<div>还可以添加<span> 2 </span>款</div>
+							<div class="jebtn jebtn-yellow">开始对比</div>
+						</div>
+					</div>
+					<div class="i"><i class="iconfont iconadd"> </i></div>
+					<p>比一比</p>
 				</div>
 			</div>
 		</div>
@@ -313,7 +337,7 @@
 			<span>正方形</span> <span class="black-close"></span>
 		</div>
 
-		<div class="reset-btn">重置</div>
+		<div class="reset-btn1">重置</div>
 	</div>
 	<div class="page-bottom">
 		<div class="left-tips">09:16:27 February</div>

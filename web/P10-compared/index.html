@@ -2,7 +2,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>登入</title>
+	<title>P11-对比页面</title>
 	<link rel="stylesheet" href="./index.css">
 	<link rel="stylesheet" href="../common.css">
 	<script>
@@ -20,31 +20,38 @@
 			win.addEventListener(resizeEvt, recalc, false);
 			doc.addEventListener("DOMContentLoaded", recalc, false);
 		})(document, window);
-
 	</script>
 </head>
 
 <body>
-	<div class="page-login">
-		<div class="login-from">
-			<div class="login-logo">
-				<img src="../img/logo_white.svg" alt="">
-			</div>
-			<div class="from-item">
-				<span>账号</span>
-				<input type="text" placeholder="Account Number"> </input>
-			</div>
-			<div class="from-item">
-				<span>密码</span>
-				<input type="password" placeholder="Password"> </input>
-			</div>
-			<div class="login-btn"> 登录 log in </div>
+	<div class="page-compared bg">
+		<div class="yovow-logo">
+			<img src="../img/logo.svg" />
 		</div>
 
-		<div class="page-bottom">
-			<div class="right-tips">
-				2019 © YOVOW DIAMOND
+		<div class="compared-list">
+			<div class="item">
+				<img src="../img/logo_white.svg" alt="">
+				<p class="name">D-1902-772</p>
+			</div>
+			<div class="item">
+				<img src="../img/logo_white.svg" alt="">
+				<p class="name">D-1902-772</p>
+			</div>
+			<div class="item">
+				<img src="../img/logo_white.svg" alt="">
+				<p class="name">D-1902-772</p>
+			</div>
+			<div class="item">
+				<img src="../img/logo_white.svg" alt="">
+				<p class="name">D-1902-772</p>
 			</div>
 		</div>
+
+		<div class="jebtn jebtn-yellow">返回主页</div>
+	</div>
+	<div class="page-bottom">
+		<div class="left-tips">09:16:27 February</div>
+		<div class="right-tips">2019 © YOVOW DIAMOND</div>
 	</div>
 </body>
