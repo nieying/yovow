@@ -176,6 +176,10 @@ input:-ms-input-placeholder {
     left: 0.44rem;
     z-index: 999;
 }
+.yovow-logo img{
+    width: 1.44rem;
+    height: 1.44rem;
+}
 
 .sanjiao {
     position: absolute;
