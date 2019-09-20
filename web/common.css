@@ -351,6 +351,6 @@ select::-ms-expand {
 }
 
 .dn {
-    display: none;
+    display: none !important;
 }
 
