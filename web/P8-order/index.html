@@ -21,6 +21,7 @@
 			win.addEventListener(resizeEvt, recalc, false);
 			doc.addEventListener("DOMContentLoaded", recalc, false);
 		})(document, window);
+
 	</script>
 </head>
 
@@ -29,7 +30,12 @@
 		<div class="order-content">
 			<div class="page-title">
 				<h4> <i class="iconfont iconorder"></i> <span>订单信息</span></h4>
-				<i class="iconfont iconclose"></i>
+				<div class="right">
+					<span><i class="iconfont iconwenben"></i>预览</span>
+					<span><i class="iconfont icondayin"></i>打印</span>
+					<span><i class="iconfont icondaochu"></i>导出</span>
+					<i class="iconfont iconclose"></i>
+				</div>
 			</div>
 			<img class="order-top-img" src="./img/bg_head.svg" />
 			<div class="order-warp">

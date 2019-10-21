@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>私有库</title>
+	<link rel="stylesheet" href="../iconfont/iconfont.css">
+	<link rel="stylesheet" href="../common.css">
+	<link rel="stylesheet" href="./index.css">
+	<script>
+		(function (doc, win) {
+			var docEl = doc.documentElement,
+				resizeEvt = "orientationchange" in window ? "orientationchange" : "resize",
+				recalc = function () {
+					var clientWidth = docEl.clientWidth;
+					if (!clientWidth) return;
+					docEl.style.fontSize = 100 * (clientWidth / 1920) + "px";
+				};
+
+			// Abort if browser does not support addEventListener
+			if (!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false);
+			doc.addEventListener("DOMContentLoaded", recalc, false);
+		})(document, window);
+
+	</script>
+</head>
+
+<body>
+	<div class="page-shared bg">
+		<div class="yovow-logo">
+			<image src="../img/logo.svg" />
+		</div>
+		<div class="shared-left">
+			<div class="shared-tab">
+				<div class="shared-tab-item">
+					<p>公有库</p>
+					<p>PUBLIC LIBRARY</p>
+				</div>
+				<div class="shared-tab-item shared-tab-active">
+					<p>私有库</p>
+					<p>PRIVATE LIBRARY</p>
+				</div>
+				<div class="shared-tab-item">
+					<p>库中库</p>
+					<p>IN THE LIBRARY</p>
+				</div>
+				<div class="shared-tab-item">
+					<p>我的</p>
+					<p>MINE</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="private-content">
+			<div class="pr-header">
+				<h5>私有库列表</h5>
+				<div class="search">
+					<input class="" placeholder="请输入名称或编号" />
+					<div class="icon"><i class="iconfont iconsearch"></i></div>
+				</div>
+			</div>
+			<div class="pr-list">
+				<div class="item">
+					<img src="" alt="">
+					<p>PUBLIC 0201</p>
+				</div>
+				<div class="item">
+					<img src="" alt="">
+					<p>PUBLIC 0201</p>
+				</div>
+				<div class="item">
+					<img src="" alt="">
+					<p>PUBLIC 0201</p>
+				</div>
+				<div class="item mr0">
+					<img src="" alt="">
+					<p>PUBLIC 0201</p>
+				</div>
+				<div class="item">
+					<img src="" alt="">
+					<p>PUBLIC 0201</p>
+				</div>
+				<div class="item">
+					<img src="" alt="">
+					<p>PUBLIC 0201</p>
+				</div>
+				<div class="item">
+					<img src="" alt="">
+					<p>PUBLIC 0201</p>
+				</div>
+				<div class="item mr0">
+					<img src="" alt="">
+					<p>PUBLIC 0201</p>
+				</div>
+				<div class="item">
+					<img src="" alt="">
+					<p>PUBLIC 0201</p>
+				</div>
+				<div class="item">
+					<img src="" alt="">
+					<p>PUBLIC 0201</p>
+				</div>
+				<div class="item">
+					<img src="" alt="">
+					<p>PUBLIC 0201</p>
+				</div>
+				<div class="item mr0">
+					<img src="" alt="">
+					<p>PUBLIC 0201</p>
+				</div>
+				<div class="item">
+					<img src="" alt="">
+					<p>PUBLIC 0201</p>
+				</div>
+				<div class="item">
+					<img src="" alt="">
+					<p>PUBLIC 0201</p>
+				</div>
+				<div class="item">
+					<img src="" alt="">
+					<p>PUBLIC 0201</p>
+				</div>
+				<div class="item mr0">
+					<img src="" alt="">
+					<p>PUBLIC 0201</p>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="page-bottom">
+			<div class="left-tips">09:16:27 February</div>
+			<div class="right-tips">2019 © YOVOW DIAMOND</div>
+		</div>
+	</div>
+</body>

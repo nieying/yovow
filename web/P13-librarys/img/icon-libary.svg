@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>编组 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="1.11022302e-14%" y1="82.8950617%" x2="100%" y2="17.1049383%" id="linearGradient-1">
+            <stop stop-color="#5B3C42" offset="0%"></stop>
+            <stop stop-color="#B6979E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="32.6604938%" x2="100%" y2="67.3395062%" id="linearGradient-2">
+            <stop stop-color="#5B3C42" offset="0%"></stop>
+            <stop stop-color="#B6979E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="20191012" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新增-库中库" transform="translate(-500.000000, -176.000000)">
+            <g id="编组复制-3" transform="translate(368.000000, 104.000000)">
+                <g id="编组-4" transform="translate(132.000000, 72.000000)">
+                    <rect id="矩形" fill="#FFFFFF" opacity="0" x="0" y="0" width="96" height="96"></rect>
+                    <g id="Group-31" transform="translate(3.000000, 8.000000)">
+                        <g id="编组-3">
+                            <polygon id="Rectangle-12" fill="url(#linearGradient-1)" points="0 2.27354593e-13 34 0 46 9 90 9 90 73 0 73"></polygon>
+                            <polygon id="矩形" fill="url(#linearGradient-2)" points="0 20 90 20 90 73 0 73"></polygon>
+                            <path d="M59.8688047,43.0707907 L46.9299976,58.8575621 L51.2890609,43.0707907 L59.8688047,43.0707907 Z M60,41.2566325 L52.1251621,41.2566325 L55.6437067,34.8025119 L60,41.2566325 Z M40.0383313,41.2566325 L36.0822873,34 L53.9951243,34 L50.0390804,41.2566325 L40.0383313,41.2566325 Z M40.6921687,43.0707907 L49.385243,43.0707907 L45.0387058,58.8121971 L40.6921687,43.0707907 Z M30.1311953,43.0707907 L38.7883508,43.0707907 L43.1867442,59 L30.1311953,43.0707907 Z M30,41.2566325 L34.3991168,34.7390662 L37.9522495,41.2566325 L30,41.2566325 Z" id="形状" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
