@@ -8,6 +8,7 @@
 
 .page-show .left-content {
 	margin-top: 2rem;
+	flex: 1;
 }
 
 .show-tab {
@@ -218,6 +219,7 @@ ul.sub-tab-content li .sanjiao .gou {
 	display: flex;
 	flex-flow: column;
 	flex: 2;
+	margin-left: -1.4rem;
 }
 
 .center-image {
@@ -302,7 +304,7 @@ ul.sub-tab-content li .sanjiao .gou {
 .center-search input {
 	width: 2.88rem;
 	padding: 0 0.2rem;
-	height: 0.47rem;
+	height: 0.48rem;
 	border-radius: 0.04rem 0 0 0.04rem;
 	font-size: 0.16rem;
 	font-family: PingFangSC;
@@ -444,12 +446,33 @@ ul.sub-tab-content li .sanjiao .gou {
 	line-height: 0.24rem;
 }
 
-.show-right {}
+.show-right {
+	/* flex: 1; */
+}
 
 .show-right-content {
 	/* margin-left: 1.5rem; */
 	overflow: hidden;
 	width: 3.87rem;
+}
+
+.show-right-content .search-result {
+	font-size: 0.14rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 0.64rem;
+	background: rgba(37, 29, 41, 0.8);
+	padding: 0 0.2rem;
+	margin-bottom: 0.64rem;
+}
+
+.show-right-content .search-result a {
+	color: #E4BAB3;
+}
+
+.show-right-content .search-result a i {
+	font-size: 0.14rem;
 }
 
 .tag-list {
@@ -533,7 +556,7 @@ ul.diamond-list li .name {
 .add-cart,
 .order-now {
 	margin-top: 0.2rem;
-	width: 3.2rem;
+	width: 3.19rem;
 	height: 0.64rem;
 	padding: 0 0.32rem;
 	font-size: 0.18rem;
@@ -594,14 +617,90 @@ ul.diamond-list li .name {
 
 /*弹出层*/
 .modal {
-	width: 4rem;
-	height: 2.4rem;
-	background: linear-gradient(315deg, rgba(91, 60, 66, 1) 0%, rgba(182, 151, 158, 1) 100%);
 	border-radius: 0.04rem;
 	position: fixed;
 	left: 50%;
 	top: 50%;
+	z-index: 999;
+	background: white;
+}
+
+.sm {
 	margin-left: -2rem;
 	margin-top: -1.2rem;
-	z-index: 999;
+	width: 4rem;
+	height: 2.4rem;
+	background: linear-gradient(315deg, rgba(91, 60, 66, 1) 0%, rgba(182, 151, 158, 1) 100%);
+}
+
+.sm .modal-content {
+	height: 100%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.big {
+	margin-top: -3.75rem;
+	margin-left: -5.8rem;
+	width: 10.9rem;
+	height: 6.7rem;
+	padding: 0.4rem 0.6rem;
+}
+
+.modal .iconclose {
+	position: absolute;
+	right: 0.15rem;
+	top: 0.15rem;
+	color: white;
+}
+
+.modal-header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.2rem;
+}
+
+.modal-header h5 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.modal-header .iconclose {
+	color: #230D29;
+}
+
+.big .modal-content {
+	box-sizing: border-box;
+	border: 0.01rem solid rgba(221, 217, 223, 1);
+	background: #F6F5F7;
+	padding: 0.16rem 0.32rem;
+	height: 5.18rem;
+}
+
+.modal-content i {
+	color: #E4BAB3;
+	font-size: 0.5rem;
+}
+
+.modal-content .title {
+	margin: 0.26rem 0 0.1rem 0;
+	font-size: 0.18rem;
+}
+
+.modal-footer {
+	margin-top: 0.2rem;
+	display: flex;
+	flex-flow: row-reverse;
+}
+
+.modal-footer div {
+	margin: 0 0.1rem;
+}
+
+.diamond-modal {
+	margin-top: 0 !important;
+	width: inherit !important;
 }
