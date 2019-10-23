@@ -225,6 +225,7 @@ ul.sub-tab-content li .sanjiao .gou {
 .center-image {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex: 2;
 }
 
