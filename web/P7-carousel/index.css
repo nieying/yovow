@@ -36,3 +36,7 @@
 .carousel-info {
 	margin: 0 2rem;
 }
+
+.carousel-info i {
+	margin: 0 0.1rem;
+}

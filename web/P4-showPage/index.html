@@ -22,7 +22,6 @@
 			win.addEventListener(resizeEvt, recalc, false);
 			doc.addEventListener("DOMContentLoaded", recalc, false);
 		})(document, window);
-
 	</script>
 </head>
 
@@ -307,7 +306,7 @@
 					<p>返回</p>
 				</div>
 				<div class="item">
-					<div class="share" style="display: none">
+					<div class="share">
 						<h4>分享到微信朋友圈</h4>
 						<p>Share to WeChat</p>
 						<div>
@@ -322,8 +321,8 @@
 					<p>分享</p>
 				</div>
 				<div class="item">
-					<div class="center-search">
-						<input type=" text" placeholder="请输入名称或编号" />
+					<div class="center-search" style="display: none">
+						<input type="text" placeholder="请输入名称或编号" />
 						<div class="btn1">
 							<embed src="../img/search_white.svg" type="image/svg+xml" />
 						</div>
@@ -349,12 +348,12 @@
 						<i class="iconfont iconclose"></i>
 						<div class="img-list">
 							<div class="item">
-								<i class="iconfont icondelete-s"></i>
-								<img src="../img/logo.svg" alt="">
+								<img class="del" src="../img/del.png" alt="">
+								<img class="bi" src="../img/logo.svg" alt="">
 							</div>
 							<div class="item">
-								<i class="iconfont icondelete-s"></i>
-								<img src="../img/logo.svg" alt="">
+								<img class="del" src="../img/del.png" alt="">
+								<img class="bi" src="../img/logo.svg" alt="">
 							</div>
 							<div class="item dashed">
 							</div>
