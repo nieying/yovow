@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>编组 25</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="98.0021661%" y1="100%" x2="1.99783391%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#5B3C42" offset="0%"></stop>
+            <stop stop-color="#B6979E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="20191124" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="20191124-P1-展示库备份" transform="translate(-704.000000, -123.000000)">
+            <g id="分组-4" transform="translate(680.000000, 107.000000)">
+                <g id="编组-25" transform="translate(24.000000, 16.000000)">
+                    <rect id="矩形" fill="#FFFFFF" opacity="0" x="0" y="0" width="32" height="32"></rect>
+                    <path d="M22.4703995,20.3356914 L29.0034416,27.1324963 L27.5615267,28.5184549 L21.0298713,21.7230997 C19.2373285,23.1484391 16.9681106,24 14.5,24 C8.70101013,24 4,19.2989899 4,13.5 C4,7.70101013 8.70101013,3 14.5,3 C20.2989899,3 25,7.70101013 25,13.5 C25,16.1106842 24.0472145,18.4988333 22.4703995,20.3356914 Z M14.5,22 C19.1944204,22 23,18.1944204 23,13.5 C23,8.80557963 19.1944204,5 14.5,5 C9.80557963,5 6,8.80557963 6,13.5 C6,18.1944204 9.80557963,22 14.5,22 Z" id="合并形状" fill="url(#linearGradient-1)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

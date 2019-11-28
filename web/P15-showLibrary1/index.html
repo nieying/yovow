@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>库中库展示页</title>
+	<link rel="stylesheet" href="../iconfont/iconfont.css">
+	<link rel="stylesheet" href="../common.css">
+	<link rel="stylesheet" href="./index.css">
+	<script type="text/javascript" src="./js/tagcloud.js"></script>
+	<script>
+		(function (doc, win) {
+			var docEl = doc.documentElement,
+				resizeEvt = "orientationchange" in window ? "orientationchange" : "resize",
+				recalc = function () {
+					var clientWidth = docEl.clientWidth;
+					if (!clientWidth) return;
+					docEl.style.fontSize = 100 * (clientWidth / 1920) + "px";
+				};
+
+			// Abort if browser does not support addEventListener
+			if (!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false);
+			doc.addEventListener("DOMContentLoaded", recalc, false);
+		})(document, window);
+	</script>
+</head>
+
+<body>
+	<div class="page-shared bg">
+		<div class="yovow-logo">
+			<image src="../img/logo.svg" />
+		</div>
+		<div class="shared-left">
+			<div class="shared-tab">
+				<div class="shared-tab-item">
+					<p>公有库</p>
+					<p>PUBLIC LIBRARY</p>
+				</div>
+				<div class="shared-tab-item">
+					<p>私有库</p>
+					<p>PRIVATE LIBRARY</p>
+				</div>
+				<div class="shared-tab-item  shared-tab-active">
+					<p>库中库</p>
+					<p>IN THE LIBRARY</p>
+				</div>
+				<div class="shared-tab-item">
+					<p>我的</p>
+					<p>MINE</p>
+				</div>
+			</div>
+		</div>
+		<div class="private-content">
+			<div class="sl-search">
+				<div class="input-box">
+					<img src="./img/sl-search.svg" alt=""></img>
+					<input class="" placeholder="请输入名称或编号" />
+				</div>
+			</div>
+
+			<div class="tagcloud">
+				<a href="#" class="color1">文献综述</a>
+				<a href="#">对外投资</a>
+				<a href="#">机器人</a>
+				<a href="#" class="color1">区块链</a>
+				<a href="#">科技创新</a>
+				<a href="#">计算机科学</a>
+				<a href="#" class="color1">自动驾驶</a>
+				<a href="#">研究价值</a>
+				<a href="#" class="color3">模式识别</a>
+				<a href="#">自然语言处理</a>
+				<a href="#">文献综述</a>
+				<a href="#" class="color1">对外投资</a>
+				<a href="#">机器人</a>
+				<a href="#">区块链</a>
+				<a href="#">科技创新</a>
+				<a href="#" class="color1">计算机科学</a>
+				<a href="#">自动驾驶</a>
+				<a href="#" class="color2">研究价值</a>
+				<a href="#">模式识别</a>
+				<a href="#" class="color1">自然语言处理</a>
+				<a href="#">文献综述</a>
+				<a href="#" class="color2">对外投资</a>
+				<a href="#">机器人</a>
+				<a href="#">区块链</a>
+				<a href="#" class="color2">科技创新</a>
+				<a href="#">计算机科学</a>
+				<a href="#" class="color3">自动驾驶</a>
+				<a href="#">研究价值</a>
+				<a href="#" class="color2">模式识别</a>
+				<a href="#" class="color3">自然语言处理</a>
+				<a href="#">自然语言处理</a>
+				<a href="#" class="color3">文献综述</a>
+				<a href="#" class="color4">对外投资</a>
+				<a href="#">机器人</a>
+				<a href="#">区块链</a>
+				<a href="#" class="color2">科技创新</a>
+				<a href="#" class="color4">计算机科学</a>
+				<a href="#" class="color4">自动驾驶</a>
+				<a href="#" class="color4">研究价值</a>
+				<a href="#">模式识别</a>
+				<a href="#" class="color3">自然语言处理</a>
+			</div>
+		</div>
+		<div class="page-bottom">
+			<div class="left-tips">09:16:27 February</div>
+			<div class="right-tips">2019 © YOVOW DIAMOND</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function jsNum(num) {
+			let lenWindow = document.documentElement.clientWidth;
+			let iWidth = lenWindow / 1080;
+			let fs = num * iWidth;
+			return parseInt(fs);
+		}
+		console.log('jsNum(200)', jsNum(200))
+		/*3D标签云*/
+		tagcloud({
+			selector: ".tagcloud", //元素选择器
+			fontsize: jsNum(16), //基本字体大小, 单位px
+			radius: jsNum(100), //滚动半径, 单位px
+			mspeed: "normal", //滚动最大速度, 取值: slow, normal(默认), fast
+			ispeed: "normal", //滚动初速度, 取值: slow, normal(默认), fast
+			direction: 135, //初始滚动方向, 取值角度(顺时针360): 0对应top, 90对应left, 135对应right-bottom(默认)...
+			keep: false //鼠标移出组件后是否继续随鼠标滚动, 取值: false, true(默认) 对应 减速至初速度滚动, 随鼠标滚动
+		});
+	</script>
+</body>

@@ -17,6 +17,7 @@ body {
 }
 
 a {
+    color: #ACA2B3;
     text-decoration: none;
 }
 
@@ -430,4 +431,15 @@ select::-ms-expand {
     font-size: 0.16rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
+}
+
+.breadcrumb {
+    display: flex;
+    font-size: 0.2rem;
+    font-weight: 500;
+
+}
+
+.breadcrumb .active {
+    color: rgba(35, 13, 41, 1);
 }

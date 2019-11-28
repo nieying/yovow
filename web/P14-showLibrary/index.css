@@ -1,0 +1,134 @@
+.page-shared {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.shared-left {
+    margin-top: 2.88rem;
+    width: 3.2rem;
+}
+
+.shared-tab {
+    margin-left: 0.48rem;
+}
+
+.shared-tab-item {
+    padding-left: 0.32rem;
+    color: white;
+    margin-bottom: 0.36rem;
+    box-sizing: border-box;
+    border-left: 0.02rem solid transparent;
+}
+
+.shared-tab-item:hover {
+    border-left: 0.02rem solid #D29991;
+    color: #E4BAB3;
+    cursor: pointer;
+}
+
+.shared-tab-item p:first-child {
+    font-family: PingFangSC-Medium;
+    font-size: 0.18rem;
+}
+
+.shared-tab-item p:last-child {
+    font-family: SFUIText-Light;
+    font-size: 0.14rem;
+}
+
+
+.shared-tab-active {
+    border-left: 0.02rem solid #D29991;
+    color: #E4BAB3;
+}
+
+.private-content {
+    height: 100%;
+    width: calc(100% - 3.2rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.sl-search {
+    display: flex;
+    margin: 1rem 0 0.5rem 4.3rem;
+}
+
+.input-box {
+    position: relative;
+    width: 5.6rem;
+}
+
+.sl-search img {
+    position: absolute;
+    left: 0.28rem;
+    top: 0.2rem;
+}
+
+.sl-search input {
+    width: 5.6rem;
+    height: 0.64rem;
+    background: transparent;
+    box-shadow: 0rem 0.01rem 0.04rem 0rem rgba(5, 34, 97, 0.1);
+    border-radius: 0.04rem 0 0 0.04rem;
+    padding: 0 0.2rem 0 0.72rem;
+    border: 0.02rem solid rgba(85, 64, 94, 1);
+    font-size: 0.2rem;
+    color: white;
+}
+
+.sl-search input::-webkit-input-placeholder {
+    color: #ACA2B3;
+    font-size: 0.18rem;
+}
+
+.tagcloud {
+    margin-left: -2rem;
+    position: relative;
+    margin-top: 1.20rem;
+}
+
+.tagcloud a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    padding: 0.11rem 0.3rem;
+    color: #333;
+    font-size: 0.14rem;
+    border-radius: 0.18rem;
+    background: #B37970;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4,Direction=135, Color='#000000')";
+    /*兼容ie7/8*/
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=125, Strength=9);
+    /*strength是阴影大小，direction是阴影方位，单位为度，可以为负数，color是阴影颜色 （尽量使用数字）使用IE滤镜实现盒子阴影的盒子必须是行元素或以行元素显示（block或inline-block;）*/
+}
+
+.color1 {
+    background: #E7C0BA !important;
+}
+.color2 {
+    background: #D69E95 !important;
+}
+.color3 {
+    background: #B37970 !important;
+}
+.color4 {
+    background: #55405E !important;
+}
+.color5 {
+    background: #423048 !important;
+}
+.color6 {
+    background: #312638 !important;
+}
+.color7 {
+    background:linear-gradient(315deg,rgba(91,60,66,1) 0%,rgba(182,151,158,1) 100%) !important;
+}
+
+.tagcloud a:hover {
+    color: #3385cf;
+}
