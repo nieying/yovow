@@ -55,6 +55,13 @@
       "unicode_decimal": 58944
     },
     {
+      "icon_id": "1261797",
+      "name": "heart",
+      "font_class": "heart-active",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
       "icon_id": "1333633",
       "name": "上",
       "font_class": "shang",
@@ -97,6 +104,13 @@
       "unicode_decimal": 58934
     },
     {
+      "icon_id": "6345961",
+      "name": "heart",
+      "font_class": "heart",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
       "icon_id": "10593770",
       "name": "取消,关闭_jurassic",
       "font_class": "jurassic_false",
@@ -116,34 +130,6 @@
       "font_class": "shoppingcart",
       "unicode": "e604",
       "unicode_decimal": 58884
-    },
-    {
-      "icon_id": "10659125",
-      "name": "order_text_hover",
-      "font_class": "ordertext",
-      "unicode": "e605",
-      "unicode_decimal": 58885
-    },
-    {
-      "icon_id": "10659126",
-      "name": "shopping_text_hover",
-      "font_class": "shoppingtext",
-      "unicode": "e606",
-      "unicode_decimal": 58886
-    },
-    {
-      "icon_id": "10659185",
-      "name": "by_metal",
-      "font_class": "bymetal",
-      "unicode": "e608",
-      "unicode_decimal": 58888
-    },
-    {
-      "icon_id": "10659186",
-      "name": "by_gemstome",
-      "font_class": "bygemstome",
-      "unicode": "e609",
-      "unicode_decimal": 58889
     },
     {
       "icon_id": "10659187",

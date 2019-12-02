@@ -3,123 +3,172 @@
     overflow-x: hidden;
 }
 
-.shared-left {
-    margin-top: 2.88rem;
-    width: 3.2rem;
-}
-
-.shared-tab {
-    margin-left: 0.48rem;
-}
-
-.shared-tab-item {
-    padding-left: 0.32rem;
-    color: white;
-    margin-bottom: 0.36rem;
-    box-sizing: border-box;
-    border-left: 0.02rem solid transparent;
-}
-
-.shared-tab-item:hover {
-    border-left: 0.02rem solid #D29991;
-    color: #E4BAB3;
-    cursor: pointer;
-}
-
-.shared-tab-item p:first-child {
-    font-family: PingFangSC-Medium;
-    font-size: 0.18rem;
-}
-
-.shared-tab-item p:last-child {
-    font-family: SFUIText-Light;
-    font-size: 0.14rem;
-}
-
-
-.shared-tab-active {
-    border-left: 0.02rem solid #D29991;
-    color: #E4BAB3;
-}
-
 .private-content {
+    position: relative;
     height: 100%;
-    width: calc(100% - 3.2rem);
+    width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-.sl-search {
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350px !important;
+    height: 350px!important; 
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 0.44rem !important;
+    height: 0.44rem !important;
+    padding: 0.15rem;
+    background: rgba(37, 29, 41, 1);
+    opacity: 0.8;
+    border-radius: 50%;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: #E4BAB3 !important;
+}
+
+.swiper-pagination-bullet {
+    background: white !important;
+    opacity: 0.5 !important;
+}
+
+.heart-bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0.4rem;
+}
+
+.heart-box {
     display: flex;
-    margin: 1rem 0 0.5rem 4.3rem;
+    justify-content: center;
+
 }
 
-.input-box {
-    position: relative;
-    width: 5.6rem;
+.heart-box div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5rem;
 }
 
-.sl-search img {
-    position: absolute;
-    left: 0.28rem;
-    top: 0.2rem;
-}
-
-.sl-search input {
-    width: 5.6rem;
+.heart-box div i {
+    width: 0.64rem;
     height: 0.64rem;
-    background: transparent;
-    box-shadow: 0rem 0.01rem 0.04rem 0rem rgba(5, 34, 97, 0.1);
-    border-radius: 0.04rem 0 0 0.04rem;
-    padding: 0 0.2rem 0 0.72rem;
-    border: 0.02rem solid rgba(85, 64, 94, 1);
-    font-size: 0.2rem;
-    color: white;
+    background: rgba(37, 29, 41, 1);
+    opacity: 0.8;
+    color: rgba(91, 60, 66, 1);
+    font-size: 0.4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.sl-search input::-webkit-input-placeholder {
-    color: #ACA2B3;
-    font-size: 0.18rem;
+.heart-box div i:hover {
+    color: #E4BAB3;
 }
 
-.tagcloud {
-    margin-left: -2rem;
-    position: relative;
-    margin-top: 1.20rem;
+
+.heart-box p {
+    margin-top: 0.1rem;
+    font-size: 0.16rem;
+    color: #FFFFFF;
 }
 
-.tagcloud a {
+.show-right-content {
+    overflow: hidden;
+    width: 3.87rem;
     position: absolute;
+    right: 40px;
     top: 0;
-    left: 0;
-    display: block;
-    padding: 0.11rem 0.3rem;
-    color: #333;
+    z-index: 999;
+}
+
+.show-right-content .search-result {
     font-size: 0.14rem;
-    border-radius: 0.18rem;
-    background: #B37970;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 0.64rem;
+    background: rgba(37, 29, 41, 0.8);
+    padding: 0 0.2rem;
+    margin-bottom: 0.64rem;
     color: white;
-    text-decoration: none;
+}
+
+.show-right-content .search-result a {
+    color: #E4BAB3;
+}
+
+.show-right-content .search-result a i {
+    font-size: 0.14rem;
+}
+
+ul.diamond-list {
+    margin-top: 0.96rem;
+    width: 4.2rem;
+    max-height: 5.5rem;
+    overflow-y: scroll;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.diamond-list li {
+    position: relative;
+    width: 0.76rem;
+    height: 1.04rem;
+    padding: 0.24rem 0.24rem 0 0.24rem;
+    text-align: center;
+    cursor: pointer;
+    border: 0.02rem solid transparent;
+}
+
+ul.diamond-list li:hover,
+.diamond-list-active {
+    background: rgba(250, 241, 238, 1);
+    border: 0.02rem solid rgba(210, 153, 145, 1) !important;
+
+}
+
+ul.diamond-list li .img {
+    width: 0.8rem;
+    height: 0.8rem;
+    background: #7F7F7F;
+    text-align: center;
+}
+
+ul.diamond-list li .img img {
+    width: 0.54rem;
+    height: 0.69rem;
+}
+
+ul.diamond-list li .name {
+    color: #ACA2B3;
+    font-size: 0.1rem;
+    line-height: 0.2rem;
+    text-overflow: ellipsis;
     white-space: nowrap;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4,Direction=135, Color='#000000')";
-    /*兼容ie7/8*/
-    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=125, Strength=9);
-    /*strength是阴影大小，direction是阴影方位，单位为度，可以为负数，color是阴影颜色 （尽量使用数字）使用IE滤镜实现盒子阴影的盒子必须是行元素或以行元素显示（block或inline-block;）*/
-}
-
-.color1 {
-    background: #312638 !important;
-}
-.color2 {
-    background: #55405E !important;
-}
-.color3 {
-    background: #B37970 !important;
-}
-.color4 {
-    background: #E7C0BA !important;
-}
-
-.tagcloud a:hover {
-    color: #3385cf;
+    overflow: hidden;
 }
