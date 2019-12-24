@@ -193,6 +193,82 @@ input:-ms-input-placeholder {
     right: 0.4rem;
 }
 
+/* 左侧导航样式 */
+.shared-left {
+    margin-top: 2.88rem;
+    width: 3.2rem;
+}
+
+.shared-tab {
+    margin-left: 0.48rem;
+}
+
+.shared-tab-item {
+    position: relative;
+    padding-left: 0.32rem;
+    color: white;
+    margin-bottom: 0.36rem;
+    box-sizing: border-box;
+    border-left: 0.02rem solid transparent;
+}
+
+.shared-tab-item:hover {
+    border-left: 0.02rem solid #D29991;
+    color: #E4BAB3;
+    cursor: pointer;
+}
+
+.shared-tab-item p.ch {
+    font-family: PingFangSC-Medium;
+    font-size: 0.18rem;
+}
+
+.shared-tab-item p.en {
+    font-family: SFUIText-Light;
+    font-size: 0.14rem;
+    margin-top: 0.07rem;
+}
+
+.shared-tab-item .je-tag {
+    position: absolute;
+    right: 0.15rem;
+    top: 0.1rem;
+}
+
+
+.shared-tab-active {
+    border-left: 0.02rem solid #D29991;
+    color: #E4BAB3;
+}
+
+.shared-content {
+    height: 100%;
+    margin-left: 2.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.shared-content-item {
+    position: relative;
+    width: 4.4rem;
+    height: 7.2rem;
+    background: #FFFFFF;
+    box-shadow: 0 0.02rem 0.07rem 0 rgba(5, 34, 97, 0.10);
+    border-radius: 0.04rem;
+    margin-right: 0.88rem;
+    cursor: pointer;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: #251D29;
+}
+
+.shared-content-item:hover {
+    color: white;
+    background-image: linear-gradient(-23deg, #5B3C42 2%, #B6979E 94%);
+}
+
 .bg {
     height: 100%;
     background: url(./img/bg.png) no-repeat;
@@ -442,4 +518,31 @@ select::-ms-expand {
 
 .breadcrumb .active {
     color: rgba(35, 13, 41, 1);
+}
+
+.je-tag {
+    font-size: 0.12rem;
+    color: #D29991;
+    background: #251D29;
+    padding: 0.05rem 0.1rem;
+    border-radius: 0.08rem;
+    margin-left: 0.1rem;
+}
+
+.je-tag:hover {
+    cursor: pointer;
+    background: #D29991;
+    color: white;
+}
+
+.left-top {
+    position: absolute;
+    left: 0;
+    z-index: 999;
+}
+
+.left-top img {
+    width: 0.64rem !important;
+    height: 0.64rem !important;
+    box-shadow: none !important;
 }

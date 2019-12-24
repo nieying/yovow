@@ -3,45 +3,6 @@
     overflow-x: hidden;
 }
 
-.shared-left {
-    margin-top: 2.88rem;
-    width: 3.2rem;
-}
-
-.shared-tab {
-    margin-left: 0.48rem;
-}
-
-.shared-tab-item {
-    padding-left: 0.32rem;
-    color: white;
-    margin-bottom: 0.36rem;
-    box-sizing: border-box;
-    border-left: 0.02rem solid transparent;
-}
-
-.shared-tab-item:hover {
-    border-left: 0.02rem solid #D29991;
-    color: #E4BAB3;
-    cursor: pointer;
-}
-
-.shared-tab-item p:first-child {
-    font-family: PingFangSC-Medium;
-    font-size: 0.18rem;
-}
-
-.shared-tab-item p:last-child {
-    font-family: SFUIText-Light;
-    font-size: 0.14rem;
-}
-
-
-.shared-tab-active {
-    border-left: 0.02rem solid #D29991;
-    color: #E4BAB3;
-}
-
 .private-content {
     height: 100%;
     width: calc(100% - 3.2rem);
@@ -108,6 +69,7 @@
 .pr-list .item {
     margin-right: 0.2rem;
     margin-bottom: 0.4rem;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,6 +81,7 @@
 }
 
 .pr-list .item:hover img {
+    box-sizing: border-box;
     border: 2px solid rgba(210, 153, 145, 1);
 }
 
@@ -139,23 +102,11 @@
     color: rgba(85, 64, 94, 1);
 }
 
-.sanjiao {
+.pr-list .item .btm-div {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 0px;
-    height: 0px;
-    border-color: #D29991 transparent transparent #D29991;
-    border-width: 0.54rem 0.54rem 0.54rem 0.54rem;
-    border-style: solid;
-    border-top-left-radius: 0.04rem;
-}
-
-.sanjiao span {
-    color: white;
-    position: absolute;
-    top: -0.45rem;
-    left: -0.25rem;
-    font-size: 0.14rem;
-    transform: rotate(45deg);
+    bottom: 0.45rem;
+    width: calc(100% - 0.32rem);
+    background: rgba(0, 0, 0, 0.6);
+    text-align: right;
+    padding: 0.2rem 0.15rem;
 }

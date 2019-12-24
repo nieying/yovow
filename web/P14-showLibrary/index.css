@@ -97,38 +97,38 @@
     color: #333;
     font-size: 0.14rem;
     border-radius: 0.18rem;
-    background: #B37970;
+    /* background: #B37970; */
     color: white;
     text-decoration: none;
     white-space: nowrap;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4,Direction=135, Color='#000000')";
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4,Direction=135, Color='#000000')"; */
     /*兼容ie7/8*/
-    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=125, Strength=9);
+    /* filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=125, Strength=9); */
     /*strength是阴影大小，direction是阴影方位，单位为度，可以为负数，color是阴影颜色 （尽量使用数字）使用IE滤镜实现盒子阴影的盒子必须是行元素或以行元素显示（block或inline-block;）*/
 }
 
 .color1 {
-    background: #E7C0BA !important;
+    color: #E7C0BA !important;
 }
 .color2 {
-    background: #D69E95 !important;
+    color: #D69E95 !important;
 }
 .color3 {
-    background: #B37970 !important;
+    color: #B37970 !important;
 }
 .color4 {
-    background: #55405E !important;
+    color: #55405E !important;
 }
 .color5 {
-    background: #423048 !important;
+    color: #423048 !important;
 }
 .color6 {
-    background: #312638 !important;
+    color: #312638 !important;
 }
 .color7 {
-    background:linear-gradient(315deg,rgba(91,60,66,1) 0%,rgba(182,151,158,1) 100%) !important;
+    color:linear-gradient(315deg,rgba(91,60,66,1) 0%,rgba(182,151,158,1) 100%) !important;
 }
 
 .tagcloud a:hover {
-    color: #3385cf;
+    color: #3385cf !important;
 }

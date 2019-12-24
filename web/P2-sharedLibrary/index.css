@@ -2,72 +2,6 @@
     display: flex;
 }
 
-.shared-left {
-    margin-top: 2.88rem;
-}
-
-.shared-tab {
-    margin-left: 0.48rem;
-}
-
-.shared-tab-item {
-    padding-left: 0.32rem;
-    color: white;
-    margin-bottom: 0.36rem;
-    box-sizing: border-box;
-    border-left: 0.02rem solid transparent;
-}
-
-.shared-tab-item:hover {
-    border-left: 0.02rem solid #D29991;
-    color: #E4BAB3;
-    cursor: pointer;
-}
-
-.shared-tab-item p:first-child {
-    font-family: PingFangSC-Medium;
-    font-size: 0.18rem;
-}
-
-.shared-tab-item p:last-child {
-    font-family: SFUIText-Light;
-    font-size: 0.14rem;
-}
-
-
-.shared-tab-active {
-    border-left: 0.02rem solid #D29991;
-    color: #E4BAB3;
-}
-
-.shared-content {
-    height: 100%;
-    margin-left: 2.8rem;
-    display: flex;
-    align-items: center;
-}
-
-.shared-content-item {
-    position: relative;
-    width: 4.4rem;
-    height: 7.2rem;
-    background: #FFFFFF;
-    box-shadow: 0 0.02rem 0.07rem 0 rgba(5, 34, 97, 0.10);
-    border-radius: 0.04rem;
-    margin-right: 0.88rem;
-    cursor: pointer;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    color: #251D29;
-}
-
-.shared-content-item:hover {
-    color: white;
-    background-image: linear-gradient(-23deg, #5B3C42 2%, #B6979E 94%);
-}
-
 /* 选中样式˝ */
 .active {
     color: white;
@@ -91,6 +25,14 @@
     height: 0.36rem;
 }
 
+.shared-content-item .btm-div {
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 0.15rem);
+    background: rgba(0, 0, 0, 0.2);
+    text-align: right;
+    padding: 0.16rem ;
+}
 
 .sanjiao {
     position: absolute;
